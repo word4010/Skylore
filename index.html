@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skylore UA Online</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Skylore UA</h1>
+        <nav>
+            <a href="#about">Про нас</a>
+            <a href="#roles">Ролі</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="slide active"
+            style="background-image:url('https://images.unsplash.com/photo-1606112219348-204d7d8b94ee');"></div>
+        <div class="slide" style="background-image:url('https://ua-online.games/assets/redirect-Me9ZGovX.jpg');"></div>
+
+        <div class="hero-content">
+            <h2>Skylore UA Online</h2>
+            <p>Українська сім'я • Рейди • PvP • Актив</p>
+            <button class="btn" id="openModal">Вступити</button>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <h2>Про нас</h2>
+        <p>Активна українська сім'я в Skylore. Разом фармимо та ходимо в рейди.</p>
+    </section>
+
+    <section id="roles" class="section">
+        <h2>Ролі</h2>
+        <div class="cards">
+
+            <div class="card">
+                <h3>🥉 Ранг 1</h3>
+                <p>Новачок</p>
+            </div>
+            <div class="card">
+                <h3>🥉 Ранг 2</h3>
+                <p>Свояк</p>
+            </div>
+            <div class="card">
+                <h3>🥉 Ранг 3</h3>
+                <p>Прошарений</p>
+            </div>
+            <div class="card">
+                <h3>🥈 Ранг 4</h3>
+                <p>Бувалий</p>
+            </div>
+            <div class="card">
+                <h3>🥈 Ранг 5</h3>
+                <p>Місцевий</p>
+            </div>
+            <div class="card">
+                <h3>🥈 Ранг 6</h3>
+                <p>Чвк фембойчік</p>
+            </div>
+            <div class="card">
+                <h3>🥇 Ранг 7</h3>
+                <p>Стрілок</p>
+            </div>
+            <div class="card">
+                <h3>🥇 Ранг 8</h3>
+                <p>Молодший зам</p>
+            </div>
+            <div class="card">
+                <h3>💎 Ранг 9</h3>
+                <p>Старший зам</p>
+            </div>
+            <div class="card">
+                <h3>👑 Ранг 10</h3>
+                <p>Глава сім'ї</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+        © 2026 Skylore UA Online
+    </footer>
+
+    <!-- MODAL -->
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <span class="close" id="closeModal">&times;</span>
+            <h2>Заявка на вступ</h2>
+            <a href="https://discord.com/users/1415315857365663744" target="_blank" class="btn">
+                Вступити
+            </a>
+
+
+
+            <p id="status"></p>
+        </div>
+    </div>
+
+    <script src="./js/script.js">
+    </script>
+
+</body>
+
+</html>
